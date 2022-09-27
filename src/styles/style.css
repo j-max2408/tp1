@@ -1,0 +1,735 @@
+* {
+   margin: 0;
+   padding: 0;
+  
+  }
+  @font-face {
+    font-family:'Abbasy';
+    src: url(../fonts/Abbasy-Calligraphy-Typeface.ttf);
+}
+@font-face {
+  font-family: 'BebasNeue-Regular';
+  src: url(../fonts/BebasNeue-Regular.ttf);
+}
+.body-bg{
+    background-image: url(../../public/img/accueil.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+ }
+ .no-scroll{
+    overflow: hidden;
+  
+ }
+
+
+   .home {
+      height: 100vh;
+      position: relative;
+    }
+    video {
+      object-fit: cover;
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      z-index: 1;
+    }
+  
+  .logo{
+      width: 80%;
+      padding-left: 5%;
+  }
+
+  .logo_accueil{
+    width: 100%;
+    height: 100%;
+    margin-left: -50%;
+}
+  
+  .panier-css{
+      width: 30%;
+      height: 70%;
+      margin-left: 40%;
+      margin-top: 5%;
+      
+  }
+  .bg-black{
+   background-image: url(../../public/img/bacground-1.png);
+   height: 100vh;
+   color: white;
+  }
+  .bg-black-2{
+    background-image: url(../../public/img/bg-black.png);
+    height: 100vh;
+    color: white;
+  }
+
+  .flex{
+    padding-top: 5%;
+    display: flex;
+
+    justify-content: space-between;
+    
+    margin-left: 40px;
+  }
+  .border-menu{
+    border: solid 2px #3f4a58 ;
+    margin-top: 2px;
+  }
+  .fluid{
+    width: 100%;
+    height: 0 auto;
+  }
+ 
+  .basis{
+    flex-basis: 55%;
+   
+    
+  }
+   
+  .basis-2{
+    flex-basis: 10%;
+    margin-top: 3%;
+ 
+  
+  }
+  .basis-article-2{
+    flex-basis: 44%;
+  }
+  .basis-article{
+    flex-basis: 50%;
+    
+ 
+  }
+  .flex-2{
+    display: flex;
+  }
+ 
+  .flex-panier{
+   
+    display: flex;
+    margin-top: 5%;
+    border-radius: 15px;
+
+    justify-content: center;
+
+    
+  }
+  .flex-article{
+    display: flex;
+    justify-content: space-between;
+    margin-left: -105px;
+  }
+  a{
+    color: white;
+    text-decoration: none;
+  
+  }
+  .line-entete{
+    border-top: 3px solid #3F4A58;
+    height: 2%;
+    writing-mode: horizontal-tb;
+    margin-top: 3%;
+    margin-right: 5%;
+    margin-left: 5%;
+}
+
+.line{
+    border-top: 5px solid #DB9C42;
+    height: 2%;
+    writing-mode: horizontal-tb;
+    margin-top: 3%;
+    margin-right: 9.5%;
+    margin-left: 10%;
+}
+
+.accueil{
+    margin-top: 5%;
+    text-align: center;
+}
+
+
+h2{
+  color: white;
+
+}
+
+/*  Article accueil  */
+.prix{
+  cursor: pointer;
+}
+.titre-page{
+    font-family: 'Abbasy';
+    color: #DB9C42;
+    font-size: 6em;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.article-accueil{
+    margin-left: 10%;
+   
+    display: flex;
+    padding: 50px;
+}
+
+.article-accueil .numero{
+    text-align: left;
+    flex-basis: 20%;
+    margin-top: 6%;
+   margin-left: -5%;
+    
+}
+a{
+  margin: 0;
+  padding: 0;
+}
+.article-accueil .titre{
+    text-align: center;
+    flex-basis: 60%;
+    cursor: pointer;
+}
+
+.article-accueil .fleche{
+    flex-basis: 20%;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+
+/*  Article expositions  */
+
+.expositions{
+    height: 60%;
+    overflow-x: scroll;
+    scroll-behavior: smooth;
+    scrollbar-width: inherit;
+}
+
+.article-expositions{
+    margin-top: 2%;
+    margin-left: 10%;
+    margin-right: 10%;
+    display: flex;
+}
+
+.article-expositions h1{
+    font-family: 'BebasNeue-Regular';
+    color: white;
+    font-size: 2.4vh;
+
+}
+
+.article-expositions .numero{
+    text-align: left;
+    flex-basis: 10%;
+  margin-top: 5%;
+
+}
+.numero{
+  font-size: 4vh;
+
+}
+
+.article-expositions .fluide{
+    width: 25%;
+    height: 25%;
+    flex-basis: 30%;
+}
+
+.article-expositions .titre{
+    text-align: left;
+    margin-left: 5%;
+    margin-top: 3%;
+    flex-basis: 40%;
+}
+
+.article-expositions .fleche{
+    flex-basis: 5%;
+    align-items: center;
+
+
+    
+    font-size: 4vh;
+    font-family: 'BebasNeue-Regular';
+  
+}
+.a-expos{
+  font-size: 4vh;
+
+  
+}
+.fleche{
+  align-items: center;
+  margin-top: 5%;
+  margin-left: 70px;
+  font-family: 'BebasNeue-Regular';
+  font-size: 4vh;
+}
+/*  Panier  */
+
+.box_panier{
+    margin-left: 9%;
+    margin-top: 5%;
+    padding-top: 5%;
+    padding:5px;
+    padding-bottom: 5%;
+    width: 80%;
+    border:3px solid white;
+    background-color: #3f4a586e;
+    border-radius: 70px;
+    height: 45%;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+
+}
+.center-cart{
+  margin-left: 61%;
+  margin-top: -10%;
+  color: black;
+}
+::-webkit-scrollbar {
+    width: 5px;
+    background: transparent; /* make scrollbar transparent */
+    scrollbar-color: blue;
+}
+
+.article_panier{
+    display: flex;
+    margin-top: 3%;
+}
+
+.article_panier .fluide{
+    width: 20%;
+    height: 20%;
+    flex-basis: 25%;
+}
+
+.article_panier .titre{
+    font-family: 'BebasNeue-Regular';
+    color: white;
+    font-size: 2.4vh;
+    flex-basis: 35%;
+    text-align: left;
+    margin-top: 2%;
+    margin-left: 5%;
+}
+
+.article_panier .prix{
+    font-family: 'BebasNeue-Regular';
+    color: white;
+    font-size: 2.5vh;
+    margin-top: 2%;
+    margin-left: 13%;
+    
+    text-align: right;
+}
+.numero{
+  font-family: 'BebasNeue-Regular';
+
+}
+.quantite{
+    font-family: 'BebasNeue-Regular';
+    color: white;
+    font-size: 2vh;
+    text-align: right;
+    padding-left: 30%;
+}
+.prix-moins{
+  font-family: 'BebasNeue-Regular';
+  color: white;
+  font-size: 4vh;
+  flex-basis: 10%;
+  margin-top: -3%;
+  cursor: pointer;
+  text-align: right;
+}
+.prix-plus{
+  font-family: 'BebasNeue-Regular';
+  color: white;
+  font-size: 4.5vh;
+  flex-basis: 10%;
+  margin-top: -3.2%;
+  cursor: pointer;
+  text-align: right;
+}
+
+.supprimer_panier{
+    font-family: 'BebasNeue-Regular';
+    color: #DB9C42;
+    font-size: 2vh;
+    text-align: left;
+    margin-top: 4%;
+    margin-left: 12%;
+    cursor: pointer;
+}
+
+.btn-payee{
+    font-family: 'BebasNeue-Regular';
+    color: #DB9C42;
+    font-size: 1.5vh;
+    background-color: #3f4a58;
+    border:3px solid #DB9C42;
+    padding: 1%;
+    border-radius: 10px;
+    width: 40%;
+    margin-top: 5%;
+    margin-left: 30%;
+    cursor: pointer;
+
+}
+
+.btn-retour{
+    font-family: 'BebasNeue-Regular';
+    color: white;
+    font-size: 1.5vh;
+    margin-left: 10%;
+    margin-top: 5%;
+}
+
+.fa-arrow-left-long{
+    color: white;
+}
+.logo-achat{
+  margin-top: 40%;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+.carre {
+  width:80%;
+  height:auto;
+  border:3px solid white;
+  background-color: #3f4a586e; 
+  border-radius: 70px;
+  color:white;
+  margin-top: 10%;
+  margin-left: auto;
+  margin-right:auto;
+
+}
+
+
+.titre {
+  text-align: center;
+  font-family: Bebas Neue;
+  font-size: 3.5em;
+  margin-top: 7%;
+
+  
+
+}
+
+.commande {
+  font-family: Roboto;
+  color: #DB9C42;
+  font-size:2.5em ;
+  text-align: center;
+  margin-bottom: 15%;
+}
+
+.background-card {
+  background-color: #3f4a585b;
+  border: solid 5px #686868;
+  border-radius: 50px;
+  padding-top: 3vh;
+  padding-bottom: 3vh;
+  
+  margin: 3vh;
+}
+
+.card {
+  display: flex;
+  margin-left: 3vh;
+}
+
+.flex-card {
+  flex-basis: 50%;
+}
+
+.margin {
+  margin-top: 1vh;
+}
+
+.title-card {
+  color: #DB9C42;
+  font-family: 'BebasNeue-Regular';
+  text-align: left;
+  font-size: 60px;
+  margin: 0;
+}
+
+.text-card {
+  color: #F2F2F2;
+  font-weight: bold;
+  font-family: 'BebasNeue-Regular';
+  font-size: 32px;
+  margin: 0;
+}
+
+.img-fluide {
+  height: 17vh;
+  width: auto;
+}
+
+/*-------------- Bouton -----------------*/
+.button {
+  height: 5vh;
+  width: 400px;
+  background-color: #3f4a58;
+  border: solid 2px #DB9C42;
+  border-radius: 20px;
+  font-family: 'BebasNeue-Regular';
+  color: #DB9C42;
+  font-size: 55px;
+  text-shadow: 0px 3px black;
+  margin-top: 2vh;
+  margin-right: 3vh;
+  align-items: center;
+  box-shadow: 0 5px #DB9C42;
+  cursor: pointer;
+}
+
+.button:active {
+  background-color: #242b33;
+  box-shadow: 0 5px #14171b5b;
+  transform: translateY(4px);
+}
+
+/*-------------- Fleche de retour -----------------*/
+.fa-arrow-left-long {
+  color: #F2F2F2;
+  font-size: 8em;
+  margin-left: 3vh;
+  margin-top: 3vh;
+  cursor: pointer;
+}
+
+.fa-arrow-left-long:active {
+  font-size: 7em;
+  transform: translateY(4px);
+  color: #3f4a58;
+}
+.h1-repas{
+  color: #DB9C42;
+  text-align: center;
+  margin-top: 1vh;
+  font-size: 120px;
+  font-family: 'Abbasy';
+}
+.photo{
+  margin-left: 28%;
+  margin-right: auto;
+  margin-top: 10%;
+  width: 45%;
+}
+
+.titre-details {
+  color: #DB9C42;
+  font-family: Bebas Neue;
+  margin-left: 20%;
+  margin-top: 5%;
+  font-size: 3em;
+}
+
+.description-details {
+  color: white;
+  font-family: Roboto;
+  font-size: 1.5em;
+  text-align: justify;
+  margin-left: 20%;
+  margin-right: 17%;
+}
+
+.prix-details {
+  color: white;
+  margin-left: 20%;
+  font-family: Roboto;
+  font-size: 2.5em;
+}
+
+
+.ligne-details{
+  border-top: 5px solid #3F4A58;
+  height: 2%;
+  writing-mode: horizontal-tb;
+  margin-top: 3%;
+  margin-right: 5%;
+  margin-left: 5%;
+}
+
+.ligne2-details{
+  border-top: 5px solid #DB9C42;
+  height: 2%;
+  writing-mode: horizontal-tb;
+  margin-top: 3%;
+  margin-right: 17%;
+  margin-left: 20%;
+}
+
+.bouton{
+  height:7vh;
+  width: 700px;
+  background-color: #3f4a58;
+  border:3px solid #DB9C42;
+  border-radius: 20px;
+  font-family: Bebas Neue;
+  color: #DB9C42;
+  font-size: 55px;
+  text-shadow: 0px 3px black;
+  margin-top: 2vh;
+  margin-right: 3vh;
+  align-items: center;
+  box-shadow: 0 4px #DB9C42;
+  cursor: pointer;
+}
+
+.bouton:active {
+  background-color: #242b33;
+  box-shadow: 0 5px #21272e5b;
+  transform: translateY(4px);
+}
+
+.ajouter-details {
+  margin-left: 19%;
+}
+
+.carre2 {
+  width:70%;
+  height:auto;
+  border:3px solid white;
+  background-color: #3f4a586e; 
+  border-radius: 40px;
+  color:white;
+
+  margin-left: auto;
+  margin-right:auto;
+  margin-bottom: 50%;
+
+}
+
+.titre-2 {
+  text-align: center;
+  font-family: Bebas Neue;
+  font-size: 4vh;
+  margin-top: 5%;
+  margin-bottom: 4%;
+}
+
+.commande {
+  font-family: Roboto;
+  color: #DB9C42;
+  font-size:2.5em ;
+  text-align: center;
+  margin-bottom: 15%;
+}
+
+.bouton-paiment{
+  height:10vh;
+  width: 42%;
+  background-color: #3f4a58;
+  border:3px solid #DB9C42;
+  border-radius: 20px;
+  font-family: Bebas Neue;
+  color: #DB9C42;
+  font-size: 55px;
+  text-shadow: 0px 3px black;
+  margin-top: 2vh;
+  margin-right: 3vh;
+  align-items: center;
+  box-shadow: 0 4px #DB9C42;
+  cursor: pointer;
+}
+
+.bouton:active {
+  background-color: #242b33;
+  box-shadow: 0 5px #21272e5b;
+  transform: translateY(4px);
+}
+
+.ajouter {
+  margin-left: 10%;
+  
+  display: flex;
+}
+
+
+.crochet {
+  width: 30%;
+}
+span {
+
+  content: "\2933";
+
+  color: white;
+
+  flex-basis: 15%;
+
+  font-size: 4vh;
+
+  cursor: pointer;
+
+  text-decoration: none;
+
+}
+/*------------- Responsive Mobile -----------------*/
+
+@media screen and (max-width: 500px) {
+
+  .background {
+      background-image: url(../../public/img/bakcground-mobile.jpg);
+      overflow-x: hidden;
+      overflow-y: scroll;
+      height: auto;
+  }
+
+
+  
+  .card {
+      display: block;
+      margin-right: 3vh;
+      margin-bottom: 2vh;
+  }
+
+  .img-fluide {
+      width: 100%;
+      height: 100%;
+  }
+
+  .button {
+      width: 100%;
+      height: 8vh;
+  }
+
+  .fa-arrow-left-long {
+      font-size: 5em;
+      margin-top: 0;
+      margin-bottom: 2vh;
+  }
+
+  .article-accueil{
+    margin-left: 10%;
+   
+    display: flex;
+    padding: 0;
+}
+.titre {
+  text-align: center;
+  font-family: Bebas Neue;
+  font-size: 6vh;
+  margin-top: 5%;
+  margin-left: 1%;
+
+  
+
+}
+.article-accueil .numero{
+  text-align: left;
+  flex-basis: 20%;
+  margin-top: 6%;
+ margin-left: 0%;
+  
+}
+}
