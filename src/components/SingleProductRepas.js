@@ -23,7 +23,7 @@ export default function SingleProductRepas() {
     return (
         <div>
                <CartProvider > 
-          <ItemProduits   nomProduit={SingleProductRepas.nomProduit} img={SingleProductRepas.img} desc={SingleProductRepas.desc} price={SingleProductRepas.price}  item={SingleProductRepas}/>
+          <ItemProduits   nomProduit={SingleProductRepas.nomProduit} img={SingleProductRepas.img} desc={SingleProductRepas.desc} price={SingleProductRepas.price}  key={SingleProductRepas} item={SingleProductRepas}/>
           </CartProvider>
          
           

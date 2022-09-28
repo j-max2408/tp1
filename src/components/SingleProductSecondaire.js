@@ -26,7 +26,7 @@ export default function SingleProductSecondaire() {
     return (
         <div>
         <CartProvider > 
-          <ItemBoutique   nomProduit={SingleProductSecondaire.nomProduit} img={SingleProductSecondaire.img} desc={SingleProductSecondaire.desc} price={SingleProductSecondaire.price} Titre={SingleProductSecondaire.Titre} item={SingleProductSecondaire}/>
+          <ItemBoutique   nomProduit={SingleProductSecondaire.nomProduit} img={SingleProductSecondaire.img} desc={SingleProductSecondaire.desc} price={SingleProductSecondaire.price} Titre={SingleProductSecondaire.Titre}  key={SingleProductSecondaire}item={SingleProductSecondaire}/>
           </CartProvider>
     
          

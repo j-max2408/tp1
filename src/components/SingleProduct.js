@@ -26,7 +26,7 @@ export default function SingleProduct(item) {
         
         <div>
         <CartProvider > 
-          <ItemDetails  imgdetails={SingleProduct.imgdetails}  img={SingleProduct.img} desc={SingleProduct.desc} price={SingleProduct.price} Titre={SingleProduct.Titre} quantite={SingleProduct.quantite}  item={SingleProduct}/>
+          <ItemDetails  imgdetails={SingleProduct.imgdetails}  img={SingleProduct.img} desc={SingleProduct.desc} price={SingleProduct.price} key={SingleProduct} Titre={SingleProduct.Titre} quantite={SingleProduct.quantite}  item={SingleProduct}/>
           </CartProvider>
 
         </div>

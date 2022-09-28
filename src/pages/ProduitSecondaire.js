@@ -23,7 +23,7 @@ const ProduitSecondaire = () => {
            <img src={item.img} alt="" className="fluide"/>
             <h1 className="titre"><Link to={`/Boutique/${item.nomProduit}`}> {item.nomProduit}</Link></h1>
     
-    <Link className="btn-item auction-btn mr-2" to={`/Boutique/${item.nomProduit}`} > <h1 className="fleche"><span>&#10547;</span></h1></Link> 
+    <Link className="btn-item auction-btn mr-2" to={`/Boutique/${item.nomProduit}`} > <h1 className="fleche"><span className='expos-fleche'>&#10547;</span></h1></Link> 
 </article>
 
        

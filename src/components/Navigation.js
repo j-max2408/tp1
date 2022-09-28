@@ -58,10 +58,10 @@ const Navigation = () => {
         if( totalUniqueItems === 8){
             setSource(coffre9)
         }
-        if( totalUniqueItems === 9){
+        if( totalUniqueItems >= 9){
             setSource(coffre10)
         }
-    
+ 
     })
       });
 

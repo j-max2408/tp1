@@ -31,7 +31,7 @@ const Menu = () => {
     <h1 class="titre"> <Link to={`/expositions`} >Expositions </Link> </h1>
 
   
-   <h1 class="fleche"><Link to={`/expositions`} ><span>&#10547;</span>  </Link> </h1>
+   <h1 class="fleche"><Link to={`/expositions`} ><span className='expos-fleche'>&#10547;</span>  </Link> </h1>
                             
                             
        
@@ -44,7 +44,7 @@ const Menu = () => {
     <h1 class="titre"> <Link to={`/repas`} >Repas </Link> </h1>
 
   
-   <h1 class="fleche"><Link to={`/repas`} > <span>&#10547;</span> </Link> </h1>
+   <h1 class="fleche"><Link to={`/repas`} > <span className='expos-fleche'>&#10547;</span> </Link> </h1>
                             
                             
        
@@ -56,7 +56,7 @@ const Menu = () => {
     <h1 class="titre"> <Link to={`/Boutique`} >Boutique </Link> </h1>
 
   
-<h1 class="fleche"><Link to={`/Boutique`} ><span>&#10547;</span>  </Link> </h1>
+<h1 class="fleche"><Link to={`/Boutique`} ><span className='expos-fleche'>&#10547;</span>  </Link> </h1>
                          
                          
       

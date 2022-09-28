@@ -64,6 +64,12 @@
     height: 100vh;
     color: white;
   }
+  .bg-black-3{
+    background-image: url(../../public/img/bg-black.png);
+    height: 100vh;
+    overflow: hidden;
+    color: white;
+  }
 
   .flex{
     padding-top: 5%;
@@ -206,6 +212,7 @@ a{
     overflow-x: scroll;
     scroll-behavior: smooth;
     scrollbar-width: inherit;
+    
 }
 
 .article-expositions{
@@ -569,8 +576,8 @@ a{
   margin-left: 20%;
 }
 
-.bouton{
-  height:7vh;
+.bouton-paiment{
+  height: 9vh;
   width: 700px;
   background-color: #3f4a58;
   border:3px solid #DB9C42;
@@ -599,15 +606,22 @@ a{
 .carre2 {
   width:70%;
   height:auto;
-  border:3px solid white;
-  background-color: #3f4a586e; 
+
+
   border-radius: 40px;
-  color:white;
+
 
   margin-left: auto;
   margin-right:auto;
-  margin-bottom: 50%;
+  margin-top: 50%;
+  
 
+}
+.titre-cart{
+  color: #DB9C42;
+  font-family: Bebas Neue;
+text-align: center;
+font-size: 4vh;
 }
 
 .titre-2 {
@@ -616,6 +630,14 @@ a{
   font-size: 4vh;
   margin-top: 5%;
   margin-bottom: 4%;
+}
+.titre-3 {
+  text-align: center;
+  font-family: Bebas Neue;
+  font-size: 4vh;
+  margin-bottom: 50%;
+  border-radius: 40px;
+  border:2px solid white;
 }
 
 .commande {
@@ -626,9 +648,10 @@ a{
   margin-bottom: 15%;
 }
 
+
 .bouton-paiment{
-  height:10vh;
-  width: 42%;
+  height:15vh;
+  width: 70%;
   background-color: #3f4a58;
   border:3px solid #DB9C42;
   border-radius: 20px;
@@ -655,9 +678,14 @@ a{
   display: flex;
 }
 
+.all-paiment{
 
+}
 .crochet {
   width: 30%;
+}
+.a-panier-achat{
+  color: #DB9C42;
 }
 span {
 
@@ -708,28 +736,163 @@ span {
       margin-top: 0;
       margin-bottom: 2vh;
   }
-
-  .article-accueil{
-    margin-left: 10%;
-   
-    display: flex;
-    padding: 0;
+.no-scroll{
+  overflow: scroll;
 }
-.titre {
+.numero{
+  margin-right: -15%;
+}
+
+.article-expositions .fluide{
+width: 100%;
+height:  100%;
+}
+.article-expositions {
+  display: block;
+}
+ .article-expositions .titre{
   text-align: center;
-  font-family: Bebas Neue;
   font-size: 6vh;
-  margin-top: 5%;
-  margin-left: 1%;
+ }
+.article-expositions .fleche{
+  text-align: center;
 
+}
+.fleche{
+  margin-left: 0;
   
+}
+.expos-fleche{
+  font-size: 6vh;
+}
+.titre-page{
+  font-size: 10vh;
+}
+.photo{
+  margin-left: 17%;
+  width: 72%;
+}
+.ajouter-details{
+  margin-left: 17%;
+}
+.bouton{
+  width: 270px;
+  height: 9vh;
+}
+*{
+  margin: 0;
+  padding: 0;
+ 
+}
+.description-details{
+  font-size: 2.4vh;
+  text-align: left;
+  
+}
+.no-scroll{
+overflow: auto;
+}
+.titre-details{
+  font-size: 6vh;
+  margin-bottom: 5%;
+}
+.logo{
+  width: 105%;
+  margin-left: -20%;
+  margin-bottom: -40%;
+}
+.panier-css{
+  width: 70%;
+  margin-left: 0;
+  margin-bottom: -54%;
+}
+.logo_accueil{
+  width: 184%;
+  
+  margin-left: -90%;
 
+}
+.article-expositions .numero{
+  font-size: 6vh;
+}
+.bg-black-2{
+  height: 100%;
+}
+.article-accueil {
+  display: block;
 }
 .article-accueil .numero{
-  text-align: left;
-  flex-basis: 20%;
-  margin-top: 6%;
- margin-left: 0%;
+  text-align: center;
+  margin-left: -15%;
+  font-size: 6vh;
+}
+.article-accueil{
+  margin-left: 0;
+}
+.article_panier .fluide{
+  width: 100%;
+}
+.box_panier{
+  display: block;
+
+}
+.article_panier{
+  display: block;
+  text-align: center;
+}
+.titre-cart{
+font-size: 7vh;
+}
+.bg-black-3{
+  overflow: hidden;
+}
+.article_panier .titre{
+  text-align: center;
+  font-size: 3.9vh;
   
+}
+.article_panier .quantite{
+  text-align: center;
+  font-size: 4vh;
+  margin-right: 30%;
+  
+}
+.prix-moins{
+  text-align: center;
+  font-size: 8vh;
+}
+.prix-plus{  
+  text-align: center;
+  font-size: 8vh;
+}
+.article_panier .prix{
+  text-align: center;
+  margin-right: 15%;
+  font-size: 4vh;
+}
+.supprimer_panier{
+  font-size: 4vh;
+}
+.logo-achat{
+  width: 80%;
+  margin-left: 10%;
+}
+.btn-payee{
+  font-size: 4vh;
+  width: 80%;
+  margin-left: 11%;
+}
+.btn-retour{
+  font-size: 4vh;
+}
+.bouton-paiment{
+  height: 30vh;
+  width: 90%;
+  margin-left: -32%;
+
+  font-size: 6vh;
+}
+.titre-3{
+  padding: 15px;
 }
 }

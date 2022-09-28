@@ -58,7 +58,7 @@ const Cart = () => {
   
   
     return redirectNow ? (
-        <Navigate to="achat" />
+        <Navigate to="paiment" />
       ) : (
       
          
@@ -68,7 +68,7 @@ const Cart = () => {
         <div className='bg-black '> 
 
          
-        <h1 class="titre-page">{PanierName}</h1>
+        <h1 class="titre-cart">{PanierName}</h1>
         <div class="line"></div>
 
         <section class="box_panier example">
@@ -85,7 +85,7 @@ const Cart = () => {
                 
             <article class="article_panier">
                 
-                <img src={item.img} alt="" class="fluide"/>
+                <img src={item.img} alt="" class="fluide fluid-mobile"/>
                 <p class="titre">{item.nomProduit} </p>
              
                 <p class="prix">{item.price * item.quantity} $ CAD</p>

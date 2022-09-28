@@ -5,7 +5,7 @@ const img2  = '../img/souper.png'
 const Repas = {
   produits :[
     {
-      id:1,
+      id:11,
       img: img1, 
       nomProduit: 'Collation',
       desc:'',
@@ -13,7 +13,7 @@ const Repas = {
       quantite: 0
     },
     {
-        id:2,
+        id:12,
         img: img2, 
         nomProduit: 'Souper',
         desc:'',
